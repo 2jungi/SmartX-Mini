@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import time
+import urllib2
  
 def bin2dec(string_num):
     return str(int(string_num, 2))
